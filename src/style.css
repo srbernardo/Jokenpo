@@ -90,6 +90,9 @@
   opacity: 0.2;
 }
 
-
-
-
+@media(max-width: 834px) {
+  #placar {
+    display: flex;
+    flex-direction: column;
+  }
+}
